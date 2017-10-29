@@ -1,1 +1,164 @@
-<!-- Agrega aquí la estructura HTML de tu sitio web -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Freelancer</title>
+	<link rel="stylesheet" href="css/main.css">
+	<!-- link fuentes -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:300,400,700|Open+Sans" rel="stylesheet">
+	<!-- link íconos -->
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+	<!--- MENÚ SUPERIOR -->
+	<nav>
+		<div class="menu">
+			<div class="sb">START BOOTSTRAP</div>
+			<ul class="menu-options">
+				<li><a href="#" class="text-uppercase">Portfolio</a></li>
+				<li><a href="#" class="text-uppercase">About</a></li>
+        		<li><a href="#" class="text-uppercase">Contact</a></li>
+        	</ul>
+		</div>
+	</nav>
+
+<!-- SECTION 1: START BOOTSTRAP -->
+<section class="intro">
+	<div class="container">
+		<div id="casquito">
+			<img src="assets/images/profile.png" alt="">
+		</div>
+		<div class="titulo-intro">
+			<h1>START BOOTSTRAP</h1>
+		</div>
+		<hr id="estrella1">
+
+		<!-- insertar aquí HR ESTRELLA -->
+
+		<div class="parrafo-intro">
+			<p>Web Developer - Graphic Artist - User Experience Designer</p>
+		</div>
+	</div>
+</section>
+
+<!-- SECTION 2: PORTFOLIO -->
+<section id="portfolio">
+	<div class="container">
+		<div class="fotos">
+			<h2 class="text-uppercase" id="titulo1">Portfolio</h2>
+			
+			
+			<div class="fila1">
+				<div class="cajita" id="uno"></div>
+				<div class="cajita" id="dos"></div>
+				<div class="cajita" id="tres"></div>
+			</div>
+			<div class="fila2">
+				<div class="cajita" id="cuatro"></div>
+				<div class="cajita" id="cinco"></div>
+				<div class="cajita" id="seis"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- SECTION 3: ABOUT -->
+<section id="about">
+	<div class="container">
+		<!-- título about -->
+		<h2 class="text-uppercase" id="ab">About</h2> 
+		
+		<!-- párrafo about -->
+		<div id="p1">
+			<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+		</div>
+		<div id="p2">
+			<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+		</div>
+		<!-- botón Download Theme -->
+		<div>
+			<button class="btn-about text-white" id="download"><i class="fa fa-download" aria-hidden="true"></i> Download Theme
+			</button>
+		</div>
+		<!-- <div><a href="#" id="download">Download Theme</a></div> -->		
+	</div>
+</section>
+
+<!-- SECTION 4: CONTACT ME -->
+<section id="contact-me">
+	<div class="container">
+		<h2 class="text-uppercase" id="contact">Contact me</h2>
+		
+		<!-- hr -->
+		<hr id="estrella4">
+		<!-- formulario -->
+		<form class="formulario" action="index.html">
+			<label for="name">Name</label>
+			<input type="text">
+
+			<label for="email">Email Address</label>
+			<input type="email">
+
+			<label for="phone">Phone number</label>
+			<input type="phone">
+
+			<label for="message">Message</label>
+			<textarea name="message" id="mensaje" cols="30" rows="10"></textarea>
+			<input type="button" value="Send" id="button">
+		</form>	
+	<div>
+		</div>
+	</div>
+</section>
+
+<!-- SECTION 5: PIE DE PÁGINA -->
+<section id="footer">
+	<div class="container">
+		<!-- location -->
+		<div class="location-group">
+			<h3 class="text-uppercase" id="loc">Location</h3>
+			<p id="mp">3481 Melrose Place
+				<br>Beverly Hills, CA 90210
+			</p>
+		</div>
+
+		<!-- around the web -->
+		<div class="around-group">
+			<h3 class="text-uppercase" id="around">Around the web</h3>
+			
+			<!-- logos redes sociales-->
+			<ul class="rrss">
+				<li>
+					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+				</li>
+			</ul>
+		</div>
+	
+		<!-- about freelancer -->
+		<div class="about-group">
+			<h3 class="text-uppercase" id="abp">About Freelancer</h3>
+			<div id="created-by">
+				<p>Freelance is a free to use, open source Bootstrap theme created by <a id="footlink" href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+			</div>
+		</div>
+
+		<!-- copy -->
+		<div id="copy">Copyright © Your Website 2017</div>
+	</div>
+</section>
+
+</body>
+</html>

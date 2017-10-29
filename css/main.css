@@ -1,3 +1,429 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+	margin: 0 auto;
+}
+
+.container {
+	width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+.container:before, .container:after {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*Estilos de tu proyecto*/
+
+/*------MENÚ SUPERIOR------*/
+nav{
+	background: #2c3e50;
+	width: 100%;
+	height: 108px;
+	position: fixed;
+	z-index: 100;
+}
+
+/*start boorstrap*/
+.sb{
+	display: inline-block;
+	position: fixed;
+	top: 34px;
+	left: 85px;
+	font-size: 200%;
+	font-weight: 700;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*portfolio, about, contact*/
+ul{
+	font-size: 15px;
+	float: right;
+	position: fixed;
+	display: inline-block;
+	left: 863px;
+	top: 29px;
+	letter-spacing: 1px;
+	word-spacing: -5px;
+}
+
+li{
+	display: inline-block;
+	/*convierte la lista vertical en horizontal*/
+}
+
+/*portfolio, about, contact (link)*/
+.menu-options a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 105%;
+	margin-right: 15px;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	/*text-decoration le quita el subrayado al link*/
+}
+
+/*------SECTION 1: START BOOTSTRAP------*/
+.intro{
+  	background-color: #18bc9c;
+  	width: 100%;
+  	height: 792px;
+}
+
+/*imagen*/
+#casquito{
+	text-align: center;
+	margin-top: 200px;
+	display: block;
+}
+
+/*Título 'Start Bootstrap'*/
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 475%;
+	margin-top: 30px;
+	text-align: center;
+	color: white;
+	margin-top: 26px;
+}
+
+/*hr*/
+#estrella1{
+	border-top: 3px solid white;
+	width: 20%;
+	height: 2px;
+	background-color: white;
+	margin-top: -30px;
+}
+
+/*Web Developer, Graph. Artist, User Experience*/
+p{
+	font-family: 'Lato', sans-serif;
+	font-size: 175%;
+    font-weight: 300;
+    margin-top: 35px;
+    color: white;
+    text-align: center;
+}
+
+
+/*------SECTION 2: PORTFOLIO------*/
+
+/*título 'portfolio'*/
+#titulo1{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+  	color: black;
+  	padding-top: 52px;
+  	/*padding-top le da el top al texto*/
+    padding-bottom: 150px;
+    /*padding-bottom le da el alto al background*/
+    line-height: 1.5;
+    font-size: 300%;
+}
+
+/*imágenes*/
+.cajita{
+	width: 350px;
+	height: 253px;
+	background-size: cover;
+	/*le dice a la imagen que se ajuste a la "cajita"*/
+	float: left;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	/*margin-right separa las imagenes entre sí (a la derecha)*/
+    margin-left: 20px;
+}
+
+/*imágenes (fila 1)*/
+.fila1{
+	margin-top: -137px;
+}
+
+
+/*imágenes (c/u)*/
+#uno{
+	background-image: url(../assets/images/portfolio/cabin.png);
+}
+
+#dos{
+	background-image: url(../assets/images/portfolio/cake.png);
+
+}
+
+#tres{
+	background-image: url(../assets/images/portfolio/circus.png);
+}
+
+#cuatro{
+	background-image: url(../assets/images/portfolio/game.png);
+}
+
+#cinco{
+	background-image: url(../assets/images/portfolio/safe.png);
+}
+
+#seis{
+	background-image: url(../assets/images/portfolio/submarine.png);
+}
+
+/*SECTION 3: ABOUT*/
+
+/*fondo color*/
+#about{
+	background-color: #29B18A;
+  	width: 100%;
+  	height: 580px;
+  	margin-top: 100px;
+}
+
+/*Título 'About'*/
+#ab{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 300%;
+	font-weight: bold;
+	margin-top: 100px;
+	color: white;
+}
+
+
+/*Párrafo*/
+#about p{
+	font-size: 125%;
+	/*position: relative;*/
+	float: left;
+	text-align: left;
+	display: inline-block;
+
+}
+
+#p1{
+	margin-left: 210px;
+	margin-top: -55px;
+	width: 30%;
+	line-height: 30px;
+}
+
+#p2{
+	margin-left: 590px;
+	margin-top: -122px;
+	width: 32%;
+	line-height: 30px;
+}
+
+/*Botón 'Download'*/
+.btn-about {
+	background-color: #18BC9C;
+	font-size: 19px;
+	border: 2px solid #FFF;
+	border-radius: 6px;
+	padding: 14px 20px; /**//**/
+	text-align: center;
+	margin: 40%;
+	margin-top: 355px;
+	margin-left: 470px;
+	color: white;
+}
+
+.btn-about:hover {
+	background-color: #FFF;
+	color: #18BC9C;
+	cursor: pointer;
+	transition: background-color 0.6s ease-out;
+}
+
+
+/*------SECTION 4: CONTACT ME-------*/
+
+#contact{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 300%;
+	font-weight: bold;
+	margin-top: 100px;
+	color: black;
+}
+
+/*<hr>*/
+#estrella4{
+	border-top: 3px solid white;
+	width: 20%;
+	height: 5px;
+	background-color: #2c3e50;
+}
+
+/*formulario*/
+form{
+	font-family: 'Lato', sans-serif;
+	width: 65%;
+	/*ancho*/
+	margin: auto;
+	color: #737B84;
+}
+
+label{
+	margin-top: 30px;
+	font-size: 24px;
+	display: block;
+}
+
+input, textarea{
+	margin-bottom: 10px;
+	/*separación entre secciones*/
+	width: 100%;
+	/*largo línea*/
+	padding: 10px;
+	/*alto cuadro*/
+	border: none;
+	/*cuadro sin borde*/
+	border-bottom: 1px solid #d4d7cf;
+	/*línea gris*/
+}
+
+input[type=button]{
+	background-color: #18bc9c;
+	padding: 10px;
+	/*alto botón*/
+	width: 80px;
+	/*ancho botón*/
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+input[type=button]:hover{
+	background-color: #209d84;
+}
+
+/*------SECTION 5: PIE DE PÁGINA------*/
+
+#footer{
+	background: #2c3e50;
+	width: 100%;
+	height: 343px;
+	margin-top: 100px;
+}
+
+/*'Location'*/
+.location-group{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	color: white;
+	float: left;
+}
+
+#loc{
+	font-size: 180%;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+#mp{
+	font-size: 128%;
+	margin-top: 32px;
+	margin-left: 100px;
+	line-height: 30px;
+}
+
+/*'Around the web'*/
+.around-group{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	color: white;
+	float: left;
+	font-size: 120%;
+	width: 31%;
+}
+
+#around{
+	display: inline-block;
+	font-size: 150%;
+	margin-top: 50px;
+	margin-left: 110px;
+	width: 90%;
+}
+
+/*Logos */
+.rrss{
+position: absolute;
+text-align: center;
+margin-left: -820px;
+margin-top: 110px;
+font-size: 22px;
+width: 100%;
+word-spacing: 30px;
+
+}
+
+.rrss a{
+display: inline-block;
+color: white;
+}
+
+/*'About freelancer'*/
+.about-group{
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	position: relative;
+	color: white;
+	float: left;
+	font-size: 120%;
+	width: 31%;
+}
+
+/*Título 'about freelancer'*/
+#abp{
+	display: inline-block;
+	font-size: 145%;
+	position: relative;
+	width: 100%;
+	float: left;
+	margin-left: 140px;
+	margin-top: 50px;
+}
+
+/*Párrafo 'about freelancer'*/
+#created-by{
+	font-size: 60%;
+	width: 100%;
+	margin-left: 120px;
+	margin-top: 60px;
+	line-height: 30px;
+	/*line-height da espacio entre líneas*/
+}
+
+/*Link 'Start Bootstrap'*/
+#created-by a{
+	color: #29B18A;
+	text-decoration: none;
+}
+
+/*Copyright*/
+#copy{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	display: block;
+	text-align: center;
+	margin-top: 302px;
+}
+
